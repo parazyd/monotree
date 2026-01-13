@@ -223,7 +223,7 @@ pub type DefaultDatabase = database::MemoryDB;
 /// A type indicating hasher selected by default.
 pub type DefaultHasher = hasher::Blake3;
 
-pub use self::bits::Bits;
+pub use self::bits::{Bits, BitsOwned};
 pub use self::database::Database;
 pub use self::hasher::Hasher;
 pub use self::node::{Cell, Node, Unit};
